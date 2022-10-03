@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "qt1"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-yc16x9lus1su"
+s3_prefix = "qt1"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = []
